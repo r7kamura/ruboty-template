@@ -7,6 +7,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    addressable (2.3.6)
     chrono (0.0.4)
       activesupport
     dotenv (1.0.2)
@@ -19,6 +20,8 @@ GEM
     mem (0.1.5)
     minitest (5.4.2)
     multipart-post (2.0.0)
+    octokit (3.4.2)
+      sawyer (~> 0.5.3)
     rake (10.3.2)
     redis (3.1.0)
     redis-namespace (1.5.1)
@@ -35,6 +38,10 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
+    ruboty-github (0.1.0)
+      activesupport
+      octokit
+      ruboty
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
@@ -46,6 +53,9 @@ GEM
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
+    sawyer (0.5.5)
+      addressable (~> 2.3.5)
+      faraday (~> 0.8, < 0.10)
     slop (3.6.0)
     thread_safe (0.3.4)
     tzinfo (1.2.2)
@@ -60,6 +70,7 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
+  ruboty-github
   ruboty-google_image
   ruboty-redis
   ruboty-slack
