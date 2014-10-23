@@ -1,5 +1,5 @@
 # ruboty-template
-A template to create and deploy your ruboty on slack.
+A template to create and deploy your [ruboty](https://github.com/r7kamura/ruboty) on slack.
 
 * Your team owner need to enable [XMPP Gateway](https://my.slack.com/admin/settings).
 * It's recommended to create a new slack account for your ruboty.
@@ -18,4 +18,5 @@ you need to add 1 dyno from [dashboard](https://dashboard-next.heroku.com/apps).
 ![](images/add-dyno.gif)
 
 ## 3. Fork
-Fork this repository if you want to add other plug-ins :fork_and_knife:
+Fork this repository if you want to add other plug-ins. :fork_and_knife:  
+See https://github.com/r7kamura/ruboty for more details about ruboty and its plug-ins.
