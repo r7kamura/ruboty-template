@@ -1,4 +1,4 @@
-# ruboty-template
+# ruboty-template [![Build Status](https://travis-ci.org/increments/ruboty-template.png)](https://travis-ci.org/increments/ruboty-template)
 A template to create and deploy your [ruboty](https://github.com/r7kamura/ruboty) on slack.
 
 * Your team owner need to enable [XMPP Gateway](https://my.slack.com/admin/settings).
