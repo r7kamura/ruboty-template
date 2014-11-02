@@ -20,3 +20,4 @@ you need to add 1 dyno from [dashboard](https://dashboard-next.heroku.com/apps).
 ## 3. Fork
 Fork this repository if you want to add other plug-ins. :fork_and_knife:  
 See https://github.com/r7kamura/ruboty for more details about ruboty and its plug-ins.
+
