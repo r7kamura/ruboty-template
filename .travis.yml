@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: XP4HHs/tm/gknhnbqDj3GBmcgwVe9/uin2vJTRuLe3m68RJem5UhXACe+6+8OdKxw2OMyrohCtkKgp4YKrH3dw3EpmDhoIRNgV+tgJl6AJkehY2PnLdBdZ+bB2nCFiIx28BOCzyvEqx1pML64aMrVzj+UIrg+LCOHkBel8W5dc8=
+  app: mayuyu-ruboty
+  on:
+    repo: kentana20/ruboty-template
