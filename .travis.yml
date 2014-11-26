@@ -7,4 +7,4 @@ deploy:
     secure: RfkJyCyCZLJEuU2RlUx1RxM9cXvHtcyOfz5AOgs7pDKoNHeSuO42XMCtNiMLjrg/HNgzPuZi008XWFW+EkNTXYiseFHWmKMdEPm5mDVlnBLGZSdOas3xAiStro+quYfUUtbNG3/kYfSSg3knNC0cES6NM30wfOqLicZnfyblDt4=
   app: qiitan-slack
   on:
-    repo: increments/ruboty-template
+    repo: increments/qiitan-rb
