@@ -1,15 +1,7 @@
-GIT
-  remote: git://github.com/r7kamura/ruboty-alias.git
-  revision: 54e577522d658319226135316a74e0ae8d157888
-  branch: non-greedy
-  specs:
-    ruboty-alias (0.0.3)
-      ruboty
-
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.1.6)
+    activesupport (4.1.8)
       i18n (~> 0.6, >= 0.6.9)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -26,7 +18,7 @@ GEM
     i18n (0.6.11)
     json (1.8.1)
     mem (0.1.5)
-    minitest (5.4.2)
+    minitest (5.4.3)
     multipart-post (2.0.0)
     octokit (3.4.2)
       sawyer (~> 0.5.3)
@@ -40,6 +32,8 @@ GEM
       dotenv
       mem
       slop
+    ruboty-alias (0.0.4)
+      ruboty
     ruboty-cron (0.0.9)
       activesupport
       chrono
@@ -76,7 +70,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake
-  ruboty-alias!
+  ruboty-alias
   ruboty-cron
   ruboty-echo
   ruboty-github
