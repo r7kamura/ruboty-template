@@ -38,6 +38,8 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
+    ruboty-echo (0.0.1)
+      ruboty
     ruboty-github (0.1.0)
       activesupport
       octokit
@@ -70,6 +72,7 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
+  ruboty-echo
   ruboty-github
   ruboty-lgtm
   ruboty-redis
