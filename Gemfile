@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "rake"
-gem "ruboty-alias"
+gem "ruboty-alias", github: "r7kamura/ruboty-alias", branch: "non-greedy"
 gem "ruboty-cron"
 gem "ruboty-echo"
 gem "ruboty-github"

@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/r7kamura/ruboty-alias.git
+  revision: 54e577522d658319226135316a74e0ae8d157888
+  branch: non-greedy
+  specs:
+    ruboty-alias (0.0.3)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -32,8 +40,6 @@ GEM
       dotenv
       mem
       slop
-    ruboty-alias (0.0.3)
-      ruboty
     ruboty-cron (0.0.9)
       activesupport
       chrono
@@ -70,7 +76,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake
-  ruboty-alias
+  ruboty-alias!
   ruboty-cron
   ruboty-echo
   ruboty-github
