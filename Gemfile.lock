@@ -30,14 +30,14 @@ GEM
     redis (3.1.0)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
-    ruboty (1.1.0)
+    ruboty (1.1.1)
       activesupport
       bundler
       dotenv
       mem
       slop
-    ruboty-alias (0.0.4)
-      ruboty
+    ruboty-alias (0.0.6)
+      ruboty (>= 1.1.1)
     ruboty-cron (0.0.9)
       activesupport
       chrono
