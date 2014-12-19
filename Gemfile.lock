@@ -52,6 +52,10 @@ GEM
       activesupport
       octokit
       ruboty
+    ruboty-google_image (0.0.7)
+      faraday
+      faraday_middleware
+      ruboty
     ruboty-lgtm (0.0.3)
       faraday
       faraday_middleware
@@ -85,6 +89,7 @@ DEPENDENCIES
   ruboty-cron
   ruboty-echo
   ruboty-github
+  ruboty-google_image
   ruboty-lgtm
   ruboty-redis
   ruboty-slack
