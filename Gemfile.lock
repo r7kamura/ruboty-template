@@ -64,6 +64,8 @@ GEM
       redis
       redis-namespace
       ruboty
+    ruboty-scorekeeper (0.0.2)
+      ruboty
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
@@ -92,5 +94,6 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-lgtm
   ruboty-redis
+  ruboty-scorekeeper
   ruboty-slack
   ruboty-talk
