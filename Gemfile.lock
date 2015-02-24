@@ -26,9 +26,9 @@ GEM
     i18n (0.7.0)
     ikku (0.1.2)
       natto
-    json (1.8.1)
+    json (1.8.2)
     mem (0.1.5)
-    minitest (5.5.0)
+    minitest (5.5.1)
     multipart-post (2.0.0)
     natto (0.9.8)
       ffi (>= 1.9.0)
@@ -39,12 +39,12 @@ GEM
     redis (3.1.0)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
-    ruboty (1.1.4)
+    ruboty (1.1.8)
       activesupport
       bundler
       dotenv
       mem
-      slop
+      slop (>= 4.0.0)
     ruboty-alias (0.0.6)
       ruboty (>= 1.1.1)
     ruboty-cron (0.0.9)
@@ -61,8 +61,8 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-kokodeikku (0.0.3)
-      ikku (>= 0.0.4)
+    ruboty-kokodeikku (0.0.6)
+      ikku (>= 0.1.1)
       ruboty
     ruboty-lgtm (0.0.3)
       faraday
