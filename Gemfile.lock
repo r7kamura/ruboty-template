@@ -7,10 +7,14 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.6)
+    addressable (2.3.7)
+    autoparse (0.3.3)
+      addressable (>= 2.3.1)
+      extlib (>= 0.9.15)
+      multi_json (>= 1.0.0)
     chrono (0.0.4)
       activesupport
-    docomoru (0.1.0)
+    docomoru (0.1.1)
       activesupport
       faraday
       faraday_middleware
@@ -18,50 +22,70 @@ GEM
       rack
       slop
     dotenv (1.0.2)
-    faraday (0.9.0)
+    extlib (0.9.16)
+    faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
     ffi (1.9.6)
+    google-api-client (0.8.2)
+      activesupport (>= 3.2)
+      addressable (~> 2.3)
+      autoparse (~> 0.3)
+      extlib (~> 0.9)
+      faraday (~> 0.9)
+      launchy (~> 2.4)
+      multi_json (~> 1.10)
+      retriable (~> 1.4)
+      signet (~> 0.6)
     i18n (0.7.0)
-    ikku (0.1.2)
+    ikku (0.1.4)
       natto
     json (1.8.2)
+    jwt (1.3.0)
+    launchy (2.4.3)
+      addressable (~> 2.3)
     mem (0.1.5)
     minitest (5.5.1)
+    multi_json (1.10.1)
     multipart-post (2.0.0)
     natto (0.9.8)
       ffi (>= 1.9.0)
-    octokit (3.7.0)
+    octokit (3.8.0)
       sawyer (~> 0.6.0, >= 0.5.3)
-    rack (1.5.2)
-    rake (10.3.2)
-    redis (3.1.0)
+    rack (1.6.0)
+    rake (10.4.2)
+    redis (3.2.1)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
-    ruboty (1.1.8)
+    retriable (1.4.1)
+    ruboty (1.1.9)
       activesupport
       bundler
       dotenv
       mem
-      slop (>= 4.0.0)
+      slop
     ruboty-alias (0.0.6)
       ruboty (>= 1.1.1)
     ruboty-cron (0.0.9)
       activesupport
       chrono
       ruboty (>= 0.2.0)
-    ruboty-echo (0.0.1)
+    ruboty-echo (0.1.0)
       ruboty
     ruboty-github (0.1.3)
       activesupport
       octokit
       ruboty
+    ruboty-google_calendar (0.0.1)
+      activesupport
+      google-api-client
+      ruboty
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
       ruboty
-    ruboty-kokodeikku (0.0.6)
+    ruboty-kokodeikku (0.0.8)
       ikku (>= 0.1.1)
       ruboty
     ruboty-lgtm (0.0.3)
@@ -83,6 +107,12 @@ GEM
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
+    signet (0.6.0)
+      addressable (~> 2.3)
+      extlib (~> 0.9)
+      faraday (~> 0.9)
+      jwt (~> 1.0)
+      multi_json (~> 1.10)
     slop (4.0.0)
     thread_safe (0.3.4)
     tzinfo (1.2.2)
@@ -99,6 +129,7 @@ DEPENDENCIES
   ruboty-cron
   ruboty-echo
   ruboty-github
+  ruboty-google_calendar
   ruboty-google_image
   ruboty-kokodeikku
   ruboty-lgtm
