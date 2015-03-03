@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: feEqzA+i047qp/C6KkJUESnesq+joP8PAywIptzQ9ercV8RQaUnkYHX9k53tBz5+nMjtDpppjT68HvKqB83S7HFm50PNf90dWFAf1cUBh/UAC/K+g8lcOBZwq2xjqezbpIn50My88n04yYnvgyfL2kBbnWtD53k0MJoZIuFUcDw=
+  app: chariot1897-ruboty
+  on:
+    repo: masato-nakamura/ruboty-template
