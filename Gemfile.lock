@@ -7,6 +7,14 @@ GIT
       chrono
       ruboty (>= 0.2.0)
 
+GIT
+  remote: git://github.com/r7kamura/ruboty-twitter_search.git
+  revision: 6fe766ee9c5b71d06e64cf63f7474e4824038da9
+  specs:
+    ruboty-twitter_search (0.0.2)
+      ruboty
+      twitter
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -113,9 +121,6 @@ GEM
     ruboty-talk (0.0.4)
       docomoru (>= 0.0.3)
       ruboty (>= 1.1.0)
-    ruboty-twitter_search (0.0.2)
-      ruboty
-      twitter
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
@@ -162,4 +167,4 @@ DEPENDENCIES
   ruboty-scorekeeper
   ruboty-slack
   ruboty-talk
-  ruboty-twitter_search
+  ruboty-twitter_search!
