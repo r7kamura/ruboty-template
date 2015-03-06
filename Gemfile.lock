@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/r7kamura/ruboty-cron.git
+  revision: 9076a7b6738e6a5f8a1d024fed08c2a135e7ac63
+  specs:
+    ruboty-cron (0.0.9)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -75,10 +84,6 @@ GEM
       slop
     ruboty-alias (0.0.6)
       ruboty (>= 1.1.1)
-    ruboty-cron (0.0.9)
-      activesupport
-      chrono
-      ruboty (>= 0.2.0)
     ruboty-echo (0.1.0)
       ruboty
     ruboty-github (0.1.3)
@@ -153,7 +158,7 @@ PLATFORMS
 DEPENDENCIES
   rake
   ruboty-alias
-  ruboty-cron
+  ruboty-cron!
   ruboty-echo
   ruboty-github
   ruboty-google_calendar
