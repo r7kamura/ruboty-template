@@ -21,7 +21,7 @@ GEM
       json
       rack
       slop
-    dotenv (1.0.2)
+    dotenv (2.0.0)
     extlib (0.9.16)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
@@ -47,7 +47,7 @@ GEM
       addressable (~> 2.3)
     mem (0.1.5)
     minitest (5.5.1)
-    multi_json (1.10.1)
+    multi_json (1.11.0)
     multipart-post (2.0.0)
     natto (0.9.8)
       ffi (>= 1.9.0)
@@ -59,7 +59,7 @@ GEM
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
     retriable (1.4.1)
-    ruboty (1.1.9)
+    ruboty (1.2.0)
       activesupport
       bundler
       dotenv
