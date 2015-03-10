@@ -1,11 +1,3 @@
-GIT
-  remote: git://github.com/increments/ruboty-qiita_police.git
-  revision: 4c4973a8365e1a4fe157754dd72b8e83265db9da
-  specs:
-    ruboty-qiita_police (0.0.2)
-      qiita
-      ruboty
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -110,6 +102,9 @@ GEM
       faraday
       faraday_middleware
       ruboty
+    ruboty-qiita_police (0.0.3)
+      qiita
+      ruboty
     ruboty-redis (0.0.5)
       redis
       redis-namespace
@@ -169,7 +164,7 @@ DEPENDENCIES
   ruboty-google_calendar
   ruboty-google_image
   ruboty-lgtm
-  ruboty-qiita_police!
+  ruboty-qiita_police
   ruboty-redis
   ruboty-replace
   ruboty-ruby_eval
