@@ -56,12 +56,22 @@ GEM
     naught (1.0.0)
     octokit (3.8.0)
       sawyer (~> 0.6.0, >= 0.5.3)
+    qiita (1.1.2)
+      activesupport
+      faraday (~> 0.9)
+      faraday_middleware
+      rack
+      rainbow
+      rouge
+      slop (< 4.0.0)
     rack (1.6.0)
+    rainbow (2.0.0)
     rake (10.4.2)
     redis (3.2.1)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
     retriable (1.4.1)
+    rouge (1.8.0)
     ruboty (1.2.0)
       activesupport
       bundler
@@ -92,6 +102,9 @@ GEM
       faraday
       faraday_middleware
       ruboty
+    ruboty-qiita_police (0.0.1)
+      qiita
+      ruboty
     ruboty-redis (0.0.5)
       redis
       redis-namespace
@@ -121,7 +134,7 @@ GEM
       jwt (~> 1.0)
       multi_json (~> 1.10)
     simple_oauth (0.3.1)
-    slop (4.0.0)
+    slop (3.6.0)
     thread_safe (0.3.4)
     twitter (5.14.0)
       addressable (~> 2.3)
@@ -151,6 +164,7 @@ DEPENDENCIES
   ruboty-google_calendar
   ruboty-google_image
   ruboty-lgtm
+  ruboty-qiita_police
   ruboty-redis
   ruboty-replace
   ruboty-ruby_eval
