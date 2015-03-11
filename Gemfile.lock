@@ -1,11 +1,3 @@
-GIT
-  remote: git://github.com/r7kamura/ruboty-bundler.git
-  revision: c9053d74a079122bdccc3a2521c6c1cc2d75c46b
-  specs:
-    ruboty-bundler (0.1.1)
-      ruboty (>= 1.2.1)
-      ruboty-github
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -88,6 +80,9 @@ GEM
       slop
     ruboty-alias (0.0.6)
       ruboty (>= 1.1.1)
+    ruboty-bundler (0.1.1)
+      ruboty (>= 1.2.1)
+      ruboty-github
     ruboty-cron (1.0.0)
       activesupport
       chrono
@@ -132,6 +127,10 @@ GEM
     ruboty-twitter_search (0.0.4)
       ruboty
       twitter
+    ruboty-weather (0.0.5)
+      faraday
+      faraday_middleware
+      ruboty (>= 0.2.0)
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
@@ -166,7 +165,7 @@ PLATFORMS
 DEPENDENCIES
   rake
   ruboty-alias
-  ruboty-bundler!
+  ruboty-bundler
   ruboty-cron
   ruboty-echo
   ruboty-github
@@ -181,3 +180,4 @@ DEPENDENCIES
   ruboty-slack
   ruboty-talk
   ruboty-twitter_search
+  ruboty-weather
