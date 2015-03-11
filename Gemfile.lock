@@ -127,10 +127,6 @@ GEM
     ruboty-twitter_search (0.0.4)
       ruboty
       twitter
-    ruboty-weather (0.0.5)
-      faraday
-      faraday_middleware
-      ruboty (>= 0.2.0)
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
@@ -180,4 +176,3 @@ DEPENDENCIES
   ruboty-slack
   ruboty-talk
   ruboty-twitter_search
-  ruboty-weather
