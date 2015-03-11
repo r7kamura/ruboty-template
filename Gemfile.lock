@@ -80,7 +80,7 @@ GEM
       slop
     ruboty-alias (0.0.6)
       ruboty (>= 1.1.1)
-    ruboty-bundler (0.1.1)
+    ruboty-bundler (0.1.2)
       ruboty (>= 1.2.1)
       ruboty-github
     ruboty-cron (1.0.0)
