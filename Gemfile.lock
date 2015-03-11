@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/r7kamura/ruboty-bundler.git
+  revision: c9053d74a079122bdccc3a2521c6c1cc2d75c46b
+  specs:
+    ruboty-bundler (0.1.1)
+      ruboty (>= 1.2.1)
+      ruboty-github
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -80,9 +88,6 @@ GEM
       slop
     ruboty-alias (0.0.6)
       ruboty (>= 1.1.1)
-    ruboty-bundler (0.1.1)
-      ruboty (>= 1.2.1)
-      ruboty-github
     ruboty-cron (1.0.0)
       activesupport
       chrono
@@ -161,7 +166,7 @@ PLATFORMS
 DEPENDENCIES
   rake
   ruboty-alias
-  ruboty-bundler
+  ruboty-bundler!
   ruboty-cron
   ruboty-echo
   ruboty-github
