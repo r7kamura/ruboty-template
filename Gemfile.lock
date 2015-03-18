@@ -78,7 +78,7 @@ GEM
       dotenv
       mem
       slop
-    ruboty-alias (0.0.6)
+    ruboty-alias (0.0.7)
       ruboty (>= 1.1.1)
     ruboty-bundler (0.1.2)
       ruboty (>= 1.2.1)
@@ -138,7 +138,7 @@ GEM
       multi_json (~> 1.10)
     simple_oauth (0.3.1)
     slop (3.6.0)
-    thread_safe (0.3.4)
+    thread_safe (0.3.5)
     twitter (5.14.0)
       addressable (~> 2.3)
       buftok (~> 0.2.0)
