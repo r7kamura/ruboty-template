@@ -1,9 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (3.2.21)
-      i18n (~> 0.6, >= 0.6.4)
-      multi_json (~> 1.0)
+    activesupport (4.2.1)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
     addressable (2.3.8)
     autoparse (0.3.3)
       addressable (>= 2.3.1)
@@ -26,23 +29,15 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
-    google-api-client (0.8.4)
-      activesupport (~> 3.2)
+    google-api-client (0.8.2)
+      activesupport (>= 3.2)
       addressable (~> 2.3)
       autoparse (~> 0.3)
       extlib (~> 0.9)
       faraday (~> 0.9)
-      googleauth (~> 0.3)
       launchy (~> 2.4)
       multi_json (~> 1.10)
       retriable (~> 1.4)
-      signet (~> 0.6)
-    googleauth (0.4.0)
-      faraday (~> 0.9)
-      jwt (~> 1.4)
-      logging (~> 1.8)
-      memoist (~> 0.11)
-      multi_json (= 1.11)
       signet (~> 0.6)
     http (0.6.4)
       http_parser.rb (~> 0.6.0)
@@ -52,14 +47,10 @@ GEM
     jwt (1.4.1)
     launchy (2.4.3)
       addressable (~> 2.3)
-    little-plugger (1.1.3)
-    logging (1.8.2)
-      little-plugger (>= 1.1.3)
-      multi_json (>= 1.8.4)
     mem (0.1.5)
-    memoist (0.11.0)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
+    minitest (5.5.1)
     multi_json (1.11.0)
     multipart-post (2.0.0)
     naught (1.0.0)
@@ -159,6 +150,8 @@ GEM
       memoizable (~> 0.4.0)
       naught (~> 1.0)
       simple_oauth (~> 0.3.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
     xrc (0.1.5)
       activesupport
 
@@ -166,6 +159,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  google-api-client (= 0.8.2)
   rake
   ruboty-alias
   ruboty-bundler
