@@ -10,7 +10,7 @@ GEM
       extlib (>= 0.9.15)
       multi_json (>= 1.0.0)
     buftok (0.2.0)
-    chrono (0.0.4)
+    chrono (0.0.6)
       activesupport
     docomoru (0.1.2)
       activesupport
