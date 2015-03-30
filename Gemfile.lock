@@ -114,7 +114,7 @@ GEM
       ruboty
     ruboty-replace (0.0.1)
       ruboty
-    ruboty-ruby (0.0.1)
+    ruboty-ruby (0.0.2)
       ruboty
     ruboty-scorekeeper (0.0.2)
       ruboty
@@ -172,7 +172,7 @@ DEPENDENCIES
   ruboty-qiita_police
   ruboty-redis
   ruboty-replace
-  ruboty-ruby
+  ruboty-ruby (>= 0.0.2)
   ruboty-scorekeeper
   ruboty-slack
   ruboty-talk
