@@ -39,10 +39,14 @@ GEM
       multi_json (~> 1.10)
       retriable (~> 1.4)
       signet (~> 0.6)
+    holiday_japan (1.1.0)
     http (0.6.4)
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
+    increments-schedule (0.1.1)
+      activesupport
+      holiday_japan
     json (1.8.2)
     jwt (1.4.1)
     launchy (2.4.3)
@@ -72,7 +76,7 @@ GEM
       redis (~> 3.0, >= 3.0.4)
     retriable (1.4.1)
     rouge (1.8.0)
-    ruboty (1.2.1)
+    ruboty (1.2.2)
       activesupport
       bundler
       dotenv
@@ -165,6 +169,7 @@ PLATFORMS
 
 DEPENDENCIES
   google-api-client (= 0.8.2)
+  increments-schedule
   rake
   ruboty-alias
   ruboty-bundler
