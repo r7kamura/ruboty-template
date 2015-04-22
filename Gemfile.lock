@@ -39,14 +39,13 @@ GEM
       multi_json (~> 1.10)
       retriable (~> 1.4)
       signet (~> 0.6)
-    holiday_japan (1.1.0)
+    holiday_japan (1.2.0)
     http (0.6.4)
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
-    increments-schedule (0.1.1)
-      activesupport
-      holiday_japan
+    increments-schedule (0.1.2)
+      holiday_japan (~> 1.1)
     json (1.8.2)
     jwt (1.4.1)
     launchy (2.4.3)
@@ -54,7 +53,7 @@ GEM
     mem (0.1.5)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
-    minitest (5.5.1)
+    minitest (5.6.0)
     multi_json (1.11.0)
     multipart-post (2.0.0)
     naught (1.0.0)
@@ -82,7 +81,7 @@ GEM
       dotenv
       mem
       slop
-    ruboty-alias (0.0.7)
+    ruboty-alias (0.0.8)
       ruboty (>= 1.1.1)
     ruboty-bundler (0.1.2)
       ruboty (>= 1.2.1)
@@ -171,7 +170,7 @@ DEPENDENCIES
   google-api-client (= 0.8.2)
   increments-schedule
   rake
-  ruboty-alias
+  ruboty-alias (= 0.0.8)
   ruboty-bundler
   ruboty-cron
   ruboty-echo
