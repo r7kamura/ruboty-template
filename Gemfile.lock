@@ -44,22 +44,22 @@ GEM
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
-    increments-schedule (0.6.0)
+    increments-schedule (0.7.0)
       holiday_japan (~> 1.1)
-    json (1.8.2)
+    json (1.8.3)
     jwt (1.5.0)
     launchy (2.4.3)
       addressable (~> 2.3)
     mem (0.1.5)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
-    minitest (5.6.1)
-    multi_json (1.11.0)
+    minitest (5.7.0)
+    multi_json (1.11.1)
     multipart-post (2.0.0)
     naught (1.0.0)
     octokit (3.8.0)
       sawyer (~> 0.6.0, >= 0.5.3)
-    qiita (1.1.2)
+    qiita (1.3.0)
       activesupport
       faraday (~> 0.9)
       faraday_middleware
@@ -74,7 +74,7 @@ GEM
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
     retriable (1.4.1)
-    rouge (1.8.0)
+    rouge (1.9.0)
     ruboty (1.2.2)
       activesupport
       bundler
@@ -92,7 +92,7 @@ GEM
       ruboty (>= 0.2.0)
     ruboty-echo (0.1.0)
       ruboty
-    ruboty-github (0.1.3)
+    ruboty-github (0.2.0)
       activesupport
       octokit
       ruboty
@@ -138,11 +138,11 @@ GEM
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
-    signet (0.6.0)
+    signet (0.6.1)
       addressable (~> 2.3)
       extlib (~> 0.9)
       faraday (~> 0.9)
-      jwt (~> 1.0)
+      jwt (~> 1.5)
       multi_json (~> 1.10)
     simple_oauth (0.3.1)
     slop (3.6.0)
@@ -168,7 +168,7 @@ PLATFORMS
 
 DEPENDENCIES
   google-api-client (= 0.8.2)
-  increments-schedule (= 0.6.0)
+  increments-schedule (= 0.7.0)
   rake
   ruboty-alias (= 0.0.8)
   ruboty-bundler
