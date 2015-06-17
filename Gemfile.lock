@@ -121,9 +121,9 @@ GEM
       ruboty
     ruboty-scorekeeper (0.0.3)
       ruboty
-    ruboty-slack (0.1.7)
+    ruboty-slack (0.1.8)
       ruboty (>= 1.0.4)
-      xrc (>= 0.0.6)
+      xrc (>= 0.1.7)
     ruboty-sushiyuki (0.0.2)
     ruboty-talk (0.0.5)
       docomoru (>= 0.0.3)
@@ -160,7 +160,7 @@ GEM
       simple_oauth (~> 0.3.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    xrc (0.1.6)
+    xrc (0.1.7)
       activesupport
 
 PLATFORMS
