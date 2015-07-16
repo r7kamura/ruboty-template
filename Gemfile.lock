@@ -1,10 +1,3 @@
-GIT
-  remote: git://github.com/r7kamura/xrc.git
-  revision: ddc0af9682fc2cdaf851f88a3f0953a1478f1954
-  specs:
-    xrc (0.1.8)
-      activesupport
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -167,6 +160,8 @@ GEM
       simple_oauth (~> 0.3.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    xrc (0.1.8)
+      activesupport
 
 PLATFORMS
   ruby
@@ -193,7 +188,7 @@ DEPENDENCIES
   ruboty-talk
   ruboty-twitter_search
   ruboty-weather
-  xrc!
+  xrc
 
 BUNDLED WITH
    1.10.2
