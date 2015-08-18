@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-ruby "2.2.0"
 gem "google-api-client", "= 0.8.2"
 gem "rake"
 gem "ruboty-replace"
@@ -21,5 +20,5 @@ gem "ruboty-weather"
 gem "ruboty-sushiyuki"
 gem "ruboty-alias", "= 0.0.8"
 gem "ruboty-cron", "= 1.0.1"
-gem "increments-schedule", "= 0.7.0"
 gem "xrc"
+gem "increments-schedule", "= 0.7.1"
