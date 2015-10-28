@@ -116,7 +116,7 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-qiita-github (0.2.1)
+    ruboty-qiita-github (0.2.2)
       activesupport
       octokit
       ruboty
@@ -193,7 +193,7 @@ DEPENDENCIES
   ruboty-google_calendar
   ruboty-google_image
   ruboty-lgtm
-  ruboty-qiita-github
+  ruboty-qiita-github (>= 0.2.2)
   ruboty-qiita_police
   ruboty-redis
   ruboty-replace
