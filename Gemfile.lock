@@ -13,7 +13,7 @@ GEM
       extlib (>= 0.9.15)
       multi_json (>= 1.0.0)
     buftok (0.2.0)
-    chrono (0.0.6)
+    chrono (0.1.0)
       activesupport
     docomoru (0.1.3)
       activesupport
@@ -22,10 +22,12 @@ GEM
       json
       rack
       slop
+    domain_name (0.5.25)
+      unf (>= 0.0.5, < 1.0.0)
     dotenv (2.0.2)
-    equalizer (0.0.11)
+    equalizer (0.0.10)
     extlib (0.9.16)
-    faraday (0.9.1)
+    faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
@@ -40,26 +42,32 @@ GEM
       retriable (~> 1.4)
       signet (~> 0.6)
     holiday_japan (1.2.0)
-    http (0.6.4)
+    http (0.9.8)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 1.0.1)
       http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
+    http-form_data (1.0.1)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     increments-schedule (0.7.2)
       holiday_japan (~> 1.1)
     json (1.8.3)
-    jwt (1.5.1)
+    jwt (1.5.2)
     launchy (2.4.3)
       addressable (~> 2.3)
     mem (0.1.5)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
-    minitest (5.8.0)
+    minitest (5.8.2)
     multi_json (1.11.2)
     multipart-post (2.0.0)
-    naught (1.0.0)
-    octokit (4.1.0)
+    naught (1.1.0)
+    octokit (4.1.1)
       sawyer (~> 0.6.0, >= 0.5.3)
-    qiita (1.3.1)
+    qiita (1.3.2)
       activesupport
       faraday (~> 0.9)
       faraday_middleware
@@ -74,7 +82,7 @@ GEM
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
     retriable (1.4.1)
-    rouge (1.9.1)
+    rouge (1.10.1)
     ruboty (1.2.2)
       activesupport
       bundler
@@ -107,6 +115,10 @@ GEM
     ruboty-lgtm (0.0.3)
       faraday
       faraday_middleware
+      ruboty
+    ruboty-qiita-github (0.2.1)
+      activesupport
+      octokit
       ruboty
     ruboty-qiita_police (0.0.3)
       qiita
@@ -147,12 +159,12 @@ GEM
     simple_oauth (0.3.1)
     slop (3.6.0)
     thread_safe (0.3.5)
-    twitter (5.14.0)
+    twitter (5.15.0)
       addressable (~> 2.3)
       buftok (~> 0.2.0)
-      equalizer (~> 0.0.9)
+      equalizer (= 0.0.10)
       faraday (~> 0.9.0)
-      http (~> 0.6.0)
+      http (>= 0.4, < 0.10)
       http_parser.rb (~> 0.6.0)
       json (~> 1.8)
       memoizable (~> 0.4.0)
@@ -160,6 +172,9 @@ GEM
       simple_oauth (~> 0.3.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.1)
     xrc (0.1.8)
       activesupport
 
@@ -178,6 +193,7 @@ DEPENDENCIES
   ruboty-google_calendar
   ruboty-google_image
   ruboty-lgtm
+  ruboty-qiita-github
   ruboty-qiita_police
   ruboty-redis
   ruboty-replace
