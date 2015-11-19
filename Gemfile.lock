@@ -131,7 +131,7 @@ GEM
       ruboty
     ruboty-ruby (0.0.2)
       ruboty
-    ruboty-ruby_persistence (0.1.2)
+    ruboty-ruby_persistence (0.1.3)
       ruboty (~> 1.0)
     ruboty-scorekeeper (0.0.3)
       ruboty
@@ -200,7 +200,7 @@ DEPENDENCIES
   ruboty-redis
   ruboty-replace
   ruboty-ruby (>= 0.0.2)
-  ruboty-ruby_persistence (= 0.1.2)
+  ruboty-ruby_persistence (= 0.1.3)
   ruboty-scorekeeper
   ruboty-slack
   ruboty-sushiyuki
