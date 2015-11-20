@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/uasi/ruboty-google_calendar.git
+  revision: 94cc1ec8aafab8f4ceee587365e7d5033610c60b
+  branch: google-api-client-0.9
+  specs:
+    ruboty-google_calendar (0.1.0)
+      activesupport
+      google-api-client (~> 0.9.pre1)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -8,10 +18,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.8)
-    autoparse (0.3.3)
-      addressable (>= 2.3.1)
-      extlib (>= 0.9.15)
-      multi_json (>= 1.0.0)
+    akismet (2.0.0)
     buftok (0.2.0)
     chrono (0.1.0)
       activesupport
@@ -31,15 +38,23 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
-    google-api-client (0.8.2)
+    google-api-client (0.9.pre3)
       activesupport (>= 3.2)
       addressable (~> 2.3)
-      autoparse (~> 0.3)
-      extlib (~> 0.9)
+      googleauth (~> 0.2)
+      hurley (~> 0.1)
+      memoist (~> 0.11)
+      mime-types (>= 1.6)
+      multi_json (~> 1.11)
+      representable (~> 2.1)
+      retriable (~> 2.0)
+      thor (~> 0.19)
+    googleauth (0.4.2)
       faraday (~> 0.9)
-      launchy (~> 2.4)
-      multi_json (~> 1.10)
-      retriable (~> 1.4)
+      jwt (~> 1.4)
+      logging (~> 2.0)
+      memoist (~> 0.12)
+      multi_json (~> 1.11)
       signet (~> 0.6)
     holiday_japan (1.2.0)
     http (0.9.8)
@@ -51,16 +66,21 @@ GEM
       domain_name (~> 0.5)
     http-form_data (1.0.1)
     http_parser.rb (0.6.0)
+    hurley (0.2)
     i18n (0.7.0)
     increments-schedule (0.7.2)
       holiday_japan (~> 1.1)
     json (1.8.3)
     jwt (1.5.2)
-    launchy (2.4.3)
-      addressable (~> 2.3)
+    little-plugger (1.1.4)
+    logging (2.0.0)
+      little-plugger (~> 1.1)
+      multi_json (~> 1.10)
     mem (0.1.5)
+    memoist (0.12.0)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
+    mime-types (2.6.2)
     minitest (5.8.3)
     multi_json (1.11.2)
     multipart-post (2.0.0)
@@ -81,7 +101,9 @@ GEM
     redis (3.2.2)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
-    retriable (1.4.1)
+    representable (2.3.0)
+      uber (~> 0.0.7)
+    retriable (2.1.0)
     rouge (1.10.1)
     ruboty (1.2.2)
       activesupport
@@ -104,10 +126,6 @@ GEM
       activesupport
       octokit
       ruboty
-    ruboty-google_calendar (0.1.0)
-      activesupport
-      google-api-client
-      ruboty
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
@@ -119,6 +137,12 @@ GEM
     ruboty-qiita-github (0.2.2)
       activesupport
       octokit
+      ruboty
+    ruboty-qiita_anti_spam (0.1.1)
+      activesupport
+      akismet
+      google-api-client (~> 0.9.pre1)
+      qiita
       ruboty
     ruboty-qiita_police (0.0.3)
       qiita
@@ -160,6 +184,7 @@ GEM
       multi_json (~> 1.10)
     simple_oauth (0.3.1)
     slop (3.6.0)
+    thor (0.19.1)
     thread_safe (0.3.5)
     twitter (5.15.0)
       addressable (~> 2.3)
@@ -174,6 +199,7 @@ GEM
       simple_oauth (~> 0.3.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    uber (0.0.15)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.1)
@@ -184,7 +210,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  google-api-client (= 0.8.2)
+  google-api-client (~> 0.9.pre1)
   increments-schedule (= 0.7.2)
   rake
   ruboty-alias (= 0.0.8)
@@ -192,10 +218,11 @@ DEPENDENCIES
   ruboty-cron (= 1.0.1)
   ruboty-echo
   ruboty-github
-  ruboty-google_calendar
+  ruboty-google_calendar!
   ruboty-google_image
   ruboty-lgtm
   ruboty-qiita-github (>= 0.2.2)
+  ruboty-qiita_anti_spam
   ruboty-qiita_police
   ruboty-redis
   ruboty-replace
@@ -208,3 +235,6 @@ DEPENDENCIES
   ruboty-twitter_search
   ruboty-weather
   xrc
+
+BUNDLED WITH
+   1.10.6
