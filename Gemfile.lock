@@ -1,13 +1,3 @@
-GIT
-  remote: git://github.com/uasi/ruboty-google_calendar.git
-  revision: 94cc1ec8aafab8f4ceee587365e7d5033610c60b
-  branch: google-api-client-0.9
-  specs:
-    ruboty-google_calendar (0.1.0)
-      activesupport
-      google-api-client (~> 0.9.pre1)
-      ruboty
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -36,6 +26,9 @@ GEM
     extlib (0.9.16)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
+    faraday-cookie_jar (0.0.6)
+      faraday (>= 0.7.4)
+      http-cookie (~> 1.0.0)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
     google-api-client (0.9.pre3)
@@ -80,7 +73,9 @@ GEM
     memoist (0.12.0)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
-    mime-types (2.6.2)
+    mime-types (3.0)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2015.1120)
     minitest (5.8.3)
     multi_json (1.11.2)
     multipart-post (2.0.0)
@@ -126,10 +121,18 @@ GEM
       activesupport
       octokit
       ruboty
+    ruboty-google_calendar (0.1.0)
+      activesupport
+      google-api-client
+      ruboty
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
       ruboty
+    ruboty-jobcan (0.1.0)
+      faraday (~> 0.9.0)
+      faraday-cookie_jar (~> 0.0.6)
+      faraday_middleware (~> 0.10.0)
     ruboty-lgtm (0.0.3)
       faraday
       faraday_middleware
@@ -218,8 +221,9 @@ DEPENDENCIES
   ruboty-cron (= 1.0.1)
   ruboty-echo
   ruboty-github
-  ruboty-google_calendar!
+  ruboty-google_calendar
   ruboty-google_image
+  ruboty-jobcan
   ruboty-lgtm
   ruboty-qiita-github (>= 0.2.2)
   ruboty-qiita_anti_spam
@@ -235,6 +239,3 @@ DEPENDENCIES
   ruboty-twitter_search
   ruboty-weather
   xrc
-
-BUNDLED WITH
-   1.10.6
