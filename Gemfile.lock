@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.2.5)
+    activesupport (4.2.4)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -26,7 +26,6 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
-    ffi (1.9.10)
     holiday_japan (1.2.0)
     http (0.9.8)
       addressable (~> 2.3)
@@ -38,24 +37,20 @@ GEM
     http-form_data (1.0.1)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
-    ikku (0.1.4)
-      natto
     increments-schedule (0.7.2)
       holiday_japan (~> 1.1)
     json (1.8.3)
     mem (0.1.5)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
-    minitest (5.8.3)
+    minitest (5.8.2)
     multipart-post (2.0.0)
-    natto (1.0.1)
-      ffi (>= 1.9.0)
     naught (1.1.0)
-    octokit (4.2.0)
+    octokit (4.1.1)
       sawyer (~> 0.6.0, >= 0.5.3)
     rack (1.6.4)
     rake (10.4.2)
-    redis (3.2.2)
+    redis (3.2.1)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
     ruboty (1.2.2)
@@ -74,16 +69,13 @@ GEM
       ruboty
     ruboty-echo (0.1.0)
       ruboty
-    ruboty-github (0.2.1)
+    ruboty-github (0.2.0)
       activesupport
       octokit
       ruboty
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
-      ruboty
-    ruboty-kokodeikku (0.0.8)
-      ikku (>= 0.1.1)
       ruboty
     ruboty-redis (0.0.6)
       redis
@@ -139,7 +131,6 @@ DEPENDENCIES
   ruboty-echo
   ruboty-github
   ruboty-google_image
-  ruboty-kokodeikku
   ruboty-redis
   ruboty-replace
   ruboty-ruby (>= 0.0.2)
