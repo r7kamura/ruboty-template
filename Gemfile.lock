@@ -77,6 +77,8 @@ GEM
       faraday
       faraday_middleware
       ruboty
+    ruboty-karma (0.3.0)
+      ruboty
     ruboty-redis (0.0.6)
       redis
       redis-namespace
@@ -131,6 +133,7 @@ DEPENDENCIES
   ruboty-echo
   ruboty-github
   ruboty-google_image
+  ruboty-karma
   ruboty-redis
   ruboty-replace
   ruboty-ruby (>= 0.0.2)
