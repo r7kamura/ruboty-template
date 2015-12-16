@@ -14,5 +14,6 @@ gem "ruboty-ruby", ">= 0.0.2"
 gem "ruboty-slack"
 gem "ruboty-talk"
 gem "ruboty-twitter_search"
+gem "ruboty-karma"
 
 gem "increments-schedule", "= 0.7.2"
