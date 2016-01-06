@@ -136,7 +136,7 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-qiita-github (0.2.2)
+    ruboty-qiita-github (0.2.3)
       activesupport
       octokit
       ruboty
@@ -237,3 +237,6 @@ DEPENDENCIES
   ruboty-twitter_search
   ruboty-weather
   xrc
+
+BUNDLED WITH
+   1.10.6
