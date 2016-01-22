@@ -222,7 +222,6 @@ DEPENDENCIES
   ruboty-bundler
   ruboty-cron (= 1.0.1)
   ruboty-echo
-  ruboty-github
   ruboty-google_calendar
   ruboty-google_image
   ruboty-jobcan
