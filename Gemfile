@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "google-api-client", "~> 0.9.pre1"
-gem "rake"
+gem "rake", "< 11.0.0" # https://github.com/ruby/rake/issues/114
 gem "ruboty-replace"
 gem "ruboty-bundler"
 gem "ruboty-echo"
