@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "google-api-client", "~> 0.9.pre1"
-gem "rake", "< 11.0.0" # https://github.com/ruby/rake/issues/114
+gem "rake", "< 11.0.0"
 gem "ruboty-replace"
 gem "ruboty-bundler"
 gem "ruboty-echo"
@@ -24,4 +24,4 @@ gem "xrc"
 gem "ruboty-qiita-github", ">= 0.2.2"
 gem "ruboty-jobcan"
 gem "ruboty-ruby_persistence", "= 0.2.0"
-gem "increments-schedule", "~> 0.10"
+gem "increments-schedule", "~> 0.11"
