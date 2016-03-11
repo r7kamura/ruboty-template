@@ -19,7 +19,7 @@ GEM
       json
       rack
       slop
-    domain_name (0.5.20160216)
+    domain_name (0.5.20160309)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.1.0)
     equalizer (0.0.10)
@@ -61,7 +61,7 @@ GEM
     httpclient (2.7.1)
     hurley (0.2)
     i18n (0.7.0)
-    increments-schedule (0.10.0)
+    increments-schedule (0.11.0)
       holiday_japan (~> 1.1)
     json (1.8.3)
     jwt (1.5.3)
@@ -214,7 +214,7 @@ PLATFORMS
 
 DEPENDENCIES
   google-api-client (~> 0.9.pre1)
-  increments-schedule (~> 0.10)
+  increments-schedule (~> 0.11)
   rake (< 11.0.0)
   ruboty-alias (= 0.0.8)
   ruboty-bundler
