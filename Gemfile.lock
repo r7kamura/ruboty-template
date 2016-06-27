@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/june29/ruboty-irasutoya.git
+  revision: 1f38273cc7d8f3315ef07221b1f761bbc1393575
+  specs:
+    ruboty-irasutoya (1.0.2)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -222,6 +229,7 @@ DEPENDENCIES
   ruboty-echo
   ruboty-google_calendar
   ruboty-google_image
+  ruboty-irasutoya!
   ruboty-jobcan
   ruboty-lgtm
   ruboty-qiita-github (>= 0.2.2)
