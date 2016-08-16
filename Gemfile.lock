@@ -8,17 +8,17 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.2.6)
+    activesupport (5.0.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
-      json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
-      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
     akismet (2.0.0)
     buftok (0.2.0)
     chrono (0.3.0)
       activesupport
+    concurrent-ruby (1.0.2)
     docomoru (0.1.3)
       activesupport
       faraday
@@ -37,7 +37,7 @@ GEM
       http-cookie (~> 1.0.0)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
-    google-api-client (0.9.9)
+    google-api-client (0.9.11)
       addressable (~> 2.3)
       googleauth (~> 0.5)
       httpclient (~> 2.7)
@@ -65,10 +65,10 @@ GEM
       domain_name (~> 0.5)
     http-form_data (1.0.1)
     http_parser.rb (0.6.0)
-    httpclient (2.8.0)
+    httpclient (2.8.2.1)
     hurley (0.2)
     i18n (0.7.0)
-    increments-schedule (0.12.0)
+    increments-schedule (0.13.0)
       holiday_japan (~> 1.1)
     json (1.8.3)
     jwt (1.5.4)
@@ -98,16 +98,16 @@ GEM
       rainbow
       rouge
       slop (< 4.0.0)
-    rack (1.6.4)
+    rack (2.0.1)
     rainbow (2.1.0)
     rake (10.5.0)
-    redis (3.3.0)
+    redis (3.3.1)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
     representable (2.3.0)
       uber (~> 0.0.7)
     retriable (2.1.0)
-    rouge (2.0.1)
+    rouge (2.0.5)
     ruboty (1.2.4)
       activesupport
       bundler
@@ -187,7 +187,7 @@ GEM
     sawyer (0.7.0)
       addressable (>= 2.3.5, < 2.5)
       faraday (~> 0.8, < 0.10)
-    signet (0.7.2)
+    signet (0.7.3)
       addressable (~> 2.3)
       faraday (~> 0.9)
       jwt (~> 1.5)
@@ -221,7 +221,7 @@ PLATFORMS
 
 DEPENDENCIES
   google-api-client (~> 0.9.pre1)
-  increments-schedule (= 0.12.0)
+  increments-schedule
   rake (< 11.0.0)
   ruboty-alias (= 0.0.8)
   ruboty-bundler
@@ -246,3 +246,6 @@ DEPENDENCIES
   ruboty-twitter_search
   ruboty-weather
   xrc
+
+BUNDLED WITH
+   1.12.3
