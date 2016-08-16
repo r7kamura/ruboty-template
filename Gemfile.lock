@@ -221,7 +221,7 @@ PLATFORMS
 
 DEPENDENCIES
   google-api-client (~> 0.9.pre1)
-  increments-schedule
+  increments-schedule (= 0.13.0)
   rake (< 11.0.0)
   ruboty-alias (= 0.0.8)
   ruboty-bundler
@@ -246,6 +246,3 @@ DEPENDENCIES
   ruboty-twitter_search
   ruboty-weather
   xrc
-
-BUNDLED WITH
-   1.12.3
