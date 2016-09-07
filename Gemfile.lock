@@ -5,6 +5,16 @@ GIT
     ruboty-irasutoya (1.0.2)
       ruboty
 
+GIT
+  remote: git://github.com/uasi/ruboty-jobcan.git
+  revision: 139ea75025afb938f98773a088511fb8290f1db0
+  branch: increments
+  specs:
+    ruboty-jobcan (0.1.1)
+      faraday (~> 0.9.0)
+      faraday-cookie_jar (~> 0.0.6)
+      faraday_middleware (~> 0.10.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -137,10 +147,6 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-jobcan (0.1.1)
-      faraday (~> 0.9.0)
-      faraday-cookie_jar (~> 0.0.6)
-      faraday_middleware (~> 0.10.0)
     ruboty-lgtm (0.0.3)
       faraday
       faraday_middleware
@@ -230,7 +236,7 @@ DEPENDENCIES
   ruboty-google_calendar
   ruboty-google_image
   ruboty-irasutoya!
-  ruboty-jobcan
+  ruboty-jobcan!
   ruboty-lgtm
   ruboty-qiita-github (>= 0.2.2)
   ruboty-qiita_anti_spam
