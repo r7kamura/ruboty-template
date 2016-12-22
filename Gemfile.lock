@@ -21,6 +21,8 @@ GEM
     ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
       xrc (>= 0.1.8)
+    ruboty-twada (2.0.0)
+      ruboty
     slop (4.4.1)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
@@ -34,6 +36,7 @@ PLATFORMS
 DEPENDENCIES
   rake
   ruboty-slack
+  ruboty-twada
 
 BUNDLED WITH
    1.13.6
