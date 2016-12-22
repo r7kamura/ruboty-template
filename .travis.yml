@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+- 2.3.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: PM5YIvtg3lsnSZnGRNSEKvVk0lj+YaIPZhFZ2BE5amhLSX3L1LU2Y8LYs3Gh6VJEFrC9eI1SvGzEasfs3HOD8ua4IxG0glAWmmLxCNxZoGvsNmWxZ3pq8zI++mvL/IvQQjmxn3mB2CkI6F/RCgyirqvQH2xp1F0fxQbCbLQKRwgv1bVyVdyBxWd5vwz3ntulzLYWjrxn46XTBB3fEMOHJfiukohVk+GpUNqm0ATCmDhQSjLRCE4aWqxvvpldGDD/UI4aMQSpKaaRfpvPG03rxbo63ixW5Vq1MO9B/MwtTm6S8RVyFXyaMOlg/jpBIENCM1FEdn3lN6i8EC7EVW3tHKC4m0+9j/P38oUQodv72ywr1gc2v70AfMurnxNnZUiRqxDmpLySgmVsMgpwSMbb6WbtWcua1IgFQliTHVHBsjQl5GKHiE6iaiKSJ4+YlcQIFS8RTOtOTWCbKx5tSNivhUVpNJzp4bm6dwQV8p0iXh92Fd07pQi/S8ETqgjj9BOdHkjYjGUB+zyexK1HOP3t4+7lEy/az4k/3r6itPVU24glTku4mNjox0+vjWg32UNbrkNrOoNZjjnEyLXE869wChIJRNNPe1TU6UXDe7ktLM2wMAIIKUTQtv5wIYE/h9klFod29v5kzXGXEddpJSR8d9CKJ3dM3ranyCgYniEz/Iw=
+  app: d250g2-ruboty
+  on:
+    repo: whywaita/ruboty-d250g2
