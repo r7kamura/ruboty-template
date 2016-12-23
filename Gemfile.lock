@@ -77,7 +77,7 @@ GEM
     httpclient (2.8.3)
     hurley (0.2)
     i18n (0.7.0)
-    increments-schedule (0.13.1)
+    increments-schedule (0.13.2)
       holiday_japan (~> 1.1)
     json (1.8.3)
     jwt (1.5.6)
@@ -226,7 +226,7 @@ PLATFORMS
 
 DEPENDENCIES
   google-api-client (~> 0.9.pre1)
-  increments-schedule (>= 0.13.1)
+  increments-schedule (>= 0.13.2)
   rake (< 11.0.0)
   ruboty-alias (= 0.0.8)
   ruboty-bundler
