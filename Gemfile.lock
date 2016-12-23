@@ -19,11 +19,16 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.1)
       faraday (>= 0.7.4, < 1.0)
+    ffi (1.9.14)
     i18n (0.7.0)
+    ikku (0.1.4)
+      natto
     json (2.0.2)
     mem (0.1.5)
     minitest (5.9.1)
     multipart-post (2.0.0)
+    natto (1.1.1)
+      ffi (>= 1.9.0)
     rack (2.0.1)
     rake (11.3.0)
     ruboty (1.2.4)
@@ -32,6 +37,9 @@ GEM
       dotenv
       mem
       slop
+    ruboty-kokodeikku (0.0.8)
+      ikku (>= 0.1.1)
+      ruboty
     ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
       xrc (>= 0.1.8)
@@ -52,6 +60,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  ruboty-kokodeikku
   ruboty-slack
   ruboty-talk
   ruboty-twada
