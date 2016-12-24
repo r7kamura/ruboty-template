@@ -6,6 +6,8 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    chrono (0.3.0)
+      activesupport
     concurrent-ruby (1.0.2)
     docomoru (0.1.3)
       activesupport
@@ -25,10 +27,13 @@ GEM
       natto
     json (2.0.2)
     mem (0.1.5)
+    mini_portile2 (2.1.0)
     minitest (5.9.1)
     multipart-post (2.0.0)
     natto (1.1.1)
       ffi (>= 1.9.0)
+    nokogiri (1.6.8.1)
+      mini_portile2 (~> 2.1.0)
     rack (2.0.1)
     rake (11.3.0)
     ruboty (1.2.4)
@@ -37,8 +42,17 @@ GEM
       dotenv
       mem
       slop
+    ruboty-cron (1.1.0)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
+    ruboty-hatena_hotentry (0.0.2)
+      nokogiri
+      ruboty
     ruboty-kokodeikku (0.0.8)
       ikku (>= 0.1.1)
+      ruboty
+    ruboty-scorekeeper (0.0.3)
       ruboty
     ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
@@ -60,7 +74,10 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  ruboty-cron
+  ruboty-hatena_hotentry
   ruboty-kokodeikku
+  ruboty-scorekeeper
   ruboty-slack
   ruboty-talk
   ruboty-twada
