@@ -7,7 +7,8 @@ GIT
 
 GIT
   remote: git://github.com/uasi/ruboty-jobcan.git
-  revision: f292705ec6ec6bca14d689e6e9c60a443d5585f9
+  revision: 087df1cfb1193bc48fb57c6fc30c6cdae34a8db8
+  branch: increments
   specs:
     ruboty-jobcan (0.1.1)
       faraday (~> 0.9.0)
@@ -251,3 +252,6 @@ DEPENDENCIES
   ruboty-twitter_search
   ruboty-weather
   xrc
+
+BUNDLED WITH
+   1.13.6
