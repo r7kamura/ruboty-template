@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/mzp/ruboty-misawa.git
+  revision: 5b39a2f03fa13b45804f8415352c2eaa5732152d
+  specs:
+    ruboty-misawa (0.0.1)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -77,6 +84,7 @@ DEPENDENCIES
   ruboty-cron
   ruboty-hatena_hotentry
   ruboty-kokodeikku
+  ruboty-misawa!
   ruboty-scorekeeper
   ruboty-slack
   ruboty-talk
