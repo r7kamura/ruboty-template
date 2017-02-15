@@ -59,6 +59,9 @@ GEM
     ruboty-kokodeikku (0.0.8)
       ikku (>= 0.1.1)
       ruboty
+    ruboty-mecab (0.1.0)
+      natto
+      ruboty
     ruboty-scorekeeper (0.0.3)
       ruboty
     ruboty-slack (0.1.12)
@@ -84,6 +87,7 @@ DEPENDENCIES
   ruboty-cron
   ruboty-hatena_hotentry
   ruboty-kokodeikku
+  ruboty-mecab
   ruboty-misawa!
   ruboty-scorekeeper
   ruboty-slack
