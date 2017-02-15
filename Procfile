@@ -1,1 +1,1 @@
-bot: bundle exec ruboty
+bot: bash heroku_exec.sh
