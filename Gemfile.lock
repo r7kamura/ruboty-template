@@ -239,7 +239,6 @@ DEPENDENCIES
   ruboty-sushiyuki
   ruboty-talk
   ruboty-twitter_search
-  xrc
 
 BUNDLED WITH
    1.14.6
