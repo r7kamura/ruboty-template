@@ -145,14 +145,6 @@ GEM
       activesupport
       octokit
       ruboty
-    ruboty-google_calendar (0.1.0)
-      activesupport
-      google-api-client
-      ruboty
-    ruboty-google_image (0.1.0)
-      faraday
-      faraday_middleware
-      ruboty
     ruboty-lgtm (0.0.3)
       faraday
       faraday_middleware
@@ -192,10 +184,6 @@ GEM
     ruboty-twitter_search (0.1.1)
       ruboty
       twitter
-    ruboty-weather (0.0.5)
-      faraday
-      faraday_middleware
-      ruboty (>= 0.2.0)
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
@@ -230,15 +218,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  google-api-client (~> 0.9.pre1)
   increments-schedule (>= 0.13.2)
   rake (< 11.0.0)
   ruboty-alias (= 0.0.8)
   ruboty-bundler
   ruboty-cron (= 1.0.1)
   ruboty-echo
-  ruboty-google_calendar
-  ruboty-google_image
   ruboty-irasutoya!
   ruboty-jobcan!
   ruboty-lgtm
@@ -254,8 +239,7 @@ DEPENDENCIES
   ruboty-sushiyuki
   ruboty-talk
   ruboty-twitter_search
-  ruboty-weather
   xrc
 
 BUNDLED WITH
-   1.13.6
+   1.14.6
