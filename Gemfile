@@ -1,4 +1,12 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
+ruby '2.5.0'
 
-gem "rake"
-gem "ruboty-slack"
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
+  "https://github.com/#{repo_name}.git"
+end
+
+gem 'rake'
+gem 'rubocop'
+gem 'ruboty-slack_rtm'
+gem 'ruboty-tweet', github: 'Pegasus204/ruboty-tweet'
