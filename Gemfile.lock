@@ -42,6 +42,7 @@ GEM
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.2.1)
+    elo_rating (1.0.0)
     equalizer (0.0.11)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
@@ -163,6 +164,8 @@ GEM
     ruboty-qiita_police (0.0.3)
       qiita
       ruboty
+    ruboty-rating (0.1.1)
+      elo_rating (~> 1.0)
     ruboty-redis (0.0.6)
       redis
       redis-namespace
@@ -232,6 +235,7 @@ DEPENDENCIES
   ruboty-qiita-github (>= 0.2.2)
   ruboty-qiita_anti_spam
   ruboty-qiita_police
+  ruboty-rating
   ruboty-redis
   ruboty-replace
   ruboty-ruby (>= 0.0.2)
