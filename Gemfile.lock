@@ -5,16 +5,6 @@ GIT
     ruboty-irasutoya (1.0.2)
       ruboty
 
-GIT
-  remote: git://github.com/uasi/ruboty-jobcan.git
-  revision: 6e8636ac3fdcaaf1b529e089a62ea40a9820b2b3
-  specs:
-    ruboty-jobcan (0.2.0)
-      faraday (~> 0.9)
-      faraday-cookie_jar (~> 0.0)
-      faraday_middleware (~> 0.10)
-      jbcn (~> 0.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -48,9 +38,6 @@ GEM
     eventmachine (1.2.7)
     faraday (0.15.1)
       multipart-post (>= 1.2, < 3)
-    faraday-cookie_jar (0.0.6)
-      faraday (>= 0.7.4)
-      http-cookie (~> 1.0.0)
     faraday_middleware (0.10.1)
       faraday (>= 0.7.4, < 1.0)
     faye-websocket (0.10.7)
@@ -86,10 +73,6 @@ GEM
       concurrent-ruby (~> 1.0)
     increments-schedule (0.15.0)
       holiday_japan (~> 1.1)
-    jbcn (0.1.1)
-      faraday (~> 0.10)
-      faraday-cookie_jar (~> 0.0.6)
-      faraday_middleware (~> 0.10)
     json (2.1.0)
     jwt (2.1.0)
     little-plugger (1.1.4)
@@ -247,7 +230,6 @@ DEPENDENCIES
   ruboty-cron (~> 1.1.0)
   ruboty-echo
   ruboty-irasutoya!
-  ruboty-jobcan!
   ruboty-lgtm
   ruboty-qiita-github (>= 0.2.2)
   ruboty-qiita_anti_spam
