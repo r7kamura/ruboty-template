@@ -5,6 +5,15 @@ GIT
     ruboty-irasutoya (1.0.2)
       ruboty
 
+GIT
+  remote: https://github.com/increments/ruboty-qiita-github.git
+  revision: 05f491fe7e32a9a3000e869a9c9e133494cd6a01
+  specs:
+    ruboty-qiita-github (0.2.3)
+      activesupport
+      octokit
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -139,10 +148,6 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-qiita-github (0.2.3)
-      activesupport
-      octokit
-      ruboty
     ruboty-qiita_anti_spam (0.1.2)
       activesupport
       akismet
@@ -231,7 +236,7 @@ DEPENDENCIES
   ruboty-echo
   ruboty-irasutoya!
   ruboty-lgtm
-  ruboty-qiita-github (>= 0.2.2)
+  ruboty-qiita-github!
   ruboty-qiita_anti_spam
   ruboty-qiita_police
   ruboty-rating
