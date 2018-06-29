@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: https://github.com/increments/ruboty-qiita-github.git
-  revision: 05f491fe7e32a9a3000e869a9c9e133494cd6a01
+  revision: 20943ca1e3934884b7d9736530565058293f1a7f
   specs:
     ruboty-qiita-github (0.2.3)
       activesupport
