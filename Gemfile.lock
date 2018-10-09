@@ -31,13 +31,6 @@ GEM
     concurrent-ruby (1.0.5)
     declarative (0.0.10)
     declarative-option (0.1.0)
-    docomoru (0.1.3)
-      activesupport
-      faraday
-      faraday_middleware
-      json
-      rack
-      slop
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.4.0)
@@ -82,7 +75,6 @@ GEM
       concurrent-ruby (~> 1.0)
     increments-schedule (0.15.0)
       holiday_japan (~> 1.1)
-    json (2.1.0)
     jwt (2.1.0)
     little-plugger (1.1.4)
     logging (2.2.2)
@@ -177,9 +169,6 @@ GEM
       slack-api (~> 1.6)
       websocket-client-simple (~> 0.3.0)
     ruboty-sushiyuki (0.0.2)
-    ruboty-talk (0.0.5)
-      docomoru (>= 0.0.3)
-      ruboty (>= 1.1.0)
     ruboty-twitter_search (0.1.1)
       ruboty
       twitter
@@ -247,7 +236,6 @@ DEPENDENCIES
   ruboty-scorekeeper
   ruboty-slack_rtm
   ruboty-sushiyuki
-  ruboty-talk
   ruboty-twitter_search
 
 BUNDLED WITH
