@@ -60,7 +60,7 @@ GEM
       multi_json (~> 1.11)
       os (~> 0.9)
       signet (~> 0.7)
-    holiday_japan (1.3.1)
+    holiday_japan (1.4.2)
     http (3.0.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -73,7 +73,7 @@ GEM
     httpclient (2.8.3)
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
-    increments-schedule (0.15.0)
+    increments-schedule (0.17.0)
       holiday_japan (~> 1.1)
     jwt (2.1.0)
     little-plugger (1.1.4)
@@ -217,7 +217,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  increments-schedule (= 0.15.0)
+  increments-schedule (~> 0.17.0)
   rake (< 11.0.0)
   ruboty-alias (= 0.0.8)
   ruboty-bundler
@@ -239,4 +239,4 @@ DEPENDENCIES
   ruboty-twitter_search
 
 BUNDLED WITH
-   1.16.1
+   1.16.5

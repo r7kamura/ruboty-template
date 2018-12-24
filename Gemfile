@@ -19,4 +19,4 @@ gem "ruboty-alias", "= 0.0.8"
 gem "ruboty-cron", "~> 1.1.0"
 gem "ruboty-qiita-github", git: 'https://github.com/increments/ruboty-qiita-github.git'
 gem "ruboty-ruby_persistence", "= 0.2.0"
-gem "increments-schedule", "= 0.15.0"
+gem "increments-schedule", "~> 0.17.0"
