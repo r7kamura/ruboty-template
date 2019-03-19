@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/increments/ruboty-response.git
-  revision: 939cdd20c076a63ec0743ce440ae87d8189e67a9
+  revision: 84e23a599f971ed2e263e6245b2076ca776b5a68
   specs:
     ruboty-response (1.1.1)
       ruboty
