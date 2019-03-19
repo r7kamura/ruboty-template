@@ -14,6 +14,13 @@ GIT
       octokit
       ruboty
 
+GIT
+  remote: https://github.com/increments/ruboty-response.git
+  revision: 939cdd20c076a63ec0743ce440ae87d8189e67a9
+  specs:
+    ruboty-response (1.1.1)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -157,8 +164,6 @@ GEM
       ruboty
     ruboty-replace (0.0.1)
       ruboty
-    ruboty-response (1.1.1)
-      ruboty
     ruboty-ruby (0.0.2)
       ruboty
     ruboty-ruby_persistence (0.2.0)
@@ -233,7 +238,7 @@ DEPENDENCIES
   ruboty-rating
   ruboty-redis
   ruboty-replace
-  ruboty-response
+  ruboty-response!
   ruboty-ruby (>= 0.0.2)
   ruboty-ruby_persistence (= 0.2.0)
   ruboty-scorekeeper
