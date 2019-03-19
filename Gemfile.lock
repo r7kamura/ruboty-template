@@ -1,11 +1,4 @@
 GIT
-  remote: git://github.com/june29/ruboty-irasutoya.git
-  revision: 1f38273cc7d8f3315ef07221b1f761bbc1393575
-  specs:
-    ruboty-irasutoya (1.0.2)
-      ruboty
-
-GIT
   remote: https://github.com/increments/ruboty-qiita-github.git
   revision: 20943ca1e3934884b7d9736530565058293f1a7f
   specs:
@@ -19,6 +12,13 @@ GIT
   revision: 939cdd20c076a63ec0743ce440ae87d8189e67a9
   specs:
     ruboty-response (1.1.1)
+      ruboty
+
+GIT
+  remote: https://github.com/june29/ruboty-irasutoya.git
+  revision: 1f38273cc7d8f3315ef07221b1f761bbc1393575
+  specs:
+    ruboty-irasutoya (1.0.2)
       ruboty
 
 GEM
