@@ -246,5 +246,8 @@ DEPENDENCIES
   ruboty-sushiyuki
   ruboty-twitter_search
 
+RUBY VERSION
+   ruby 2.6.3p62
+
 BUNDLED WITH
    1.17.3
