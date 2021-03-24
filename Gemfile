@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '2.6.3'
+ruby '2.7.2'
 
 # This workaround has already implemented in Bundler 2.0 branch.
 # So we can remove this lines after we upgrade Bundler to 2.0.
