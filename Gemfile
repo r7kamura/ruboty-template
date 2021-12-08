@@ -31,3 +31,5 @@ gem "ruboty-cron", "~> 1.1.0"
 gem "ruboty-qiita-github", github: 'increments/ruboty-qiita-github'
 gem "ruboty-ruby_persistence", "= 0.2.0"
 gem "increments-schedule", "~> 0.18.0"
+
+gem 'websocket-client-simple', github: 'fuyuton/websocket-client-simple'
