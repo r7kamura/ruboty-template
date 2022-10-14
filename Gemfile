@@ -10,7 +10,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem "rake", "< 11.0.0"
+gem "rake", "< 13.0.0"
 gem "ruboty-replace"
 gem "ruboty-bundler"
 gem "ruboty-echo"
