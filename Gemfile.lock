@@ -112,7 +112,7 @@ GEM
       slop (< 4.0.0)
     rack (2.2.4)
     rainbow (3.0.0)
-    rake (10.5.0)
+    rake (12.3.3)
     redis (4.0.1)
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
@@ -227,7 +227,7 @@ PLATFORMS
 
 DEPENDENCIES
   increments-schedule (~> 0.18.0)
-  rake (< 11.0.0)
+  rake (< 13.0.0)
   ruboty-alias (= 0.0.8)
   ruboty-bundler
   ruboty-cron (~> 1.1.0)
