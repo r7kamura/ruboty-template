@@ -7,6 +7,15 @@ GIT
       websocket (~> 1.2.8)
 
 GIT
+  remote: https://github.com/increments/ruboty-qiita-github.git
+  revision: 20943ca1e3934884b7d9736530565058293f1a7f
+  specs:
+    ruboty-qiita-github (0.2.3)
+      activesupport
+      octokit
+      ruboty
+
+GIT
   remote: https://github.com/increments/ruboty-response.git
   revision: 84e23a599f971ed2e263e6245b2076ca776b5a68
   specs:
@@ -148,10 +157,6 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-qiita-github (0.3.0)
-      activesupport
-      octokit
-      ruboty
     ruboty-qiita_anti_spam (0.1.2)
       activesupport
       akismet
@@ -235,7 +240,7 @@ DEPENDENCIES
   ruboty-echo
   ruboty-irasutoya!
   ruboty-lgtm
-  ruboty-qiita-github
+  ruboty-qiita-github!
   ruboty-qiita_anti_spam
   ruboty-qiita_police
   ruboty-rating
