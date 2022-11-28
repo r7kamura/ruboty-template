@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/fuyuton/websocket-client-simple.git
-  revision: 3f455717022bc17bd079ab7cf54252dc120e5059
-  specs:
-    websocket-client-simple (0.3.3)
-      event_emitter (~> 0.2.6)
-      websocket (~> 1.2.8)
-
-GIT
   remote: https://github.com/increments/ruboty-response.git
   revision: 84e23a599f971ed2e263e6245b2076ca776b5a68
   specs:
@@ -174,11 +166,11 @@ GEM
       ruboty (~> 1.0)
     ruboty-scorekeeper (0.0.3)
       ruboty
-    ruboty-slack_rtm (3.2.1)
+    ruboty-slack_rtm (3.2.4)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
-      websocket-client-simple (~> 0.3.0)
+      websocket-client-simple (>= 0.5.0)
     ruboty-sushiyuki (0.0.2)
     ruboty-twitter_search (0.1.1)
       ruboty
@@ -217,6 +209,9 @@ GEM
       unf_ext
     unf_ext (0.0.7.4)
     websocket (1.2.9)
+    websocket-client-simple (0.6.0)
+      event_emitter
+      websocket
     websocket-driver (0.7.2)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -247,7 +242,6 @@ DEPENDENCIES
   ruboty-slack_rtm
   ruboty-sushiyuki
   ruboty-twitter_search
-  websocket-client-simple!
 
 RUBY VERSION
    ruby 2.7.6p219
