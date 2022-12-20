@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/increments/ruboty-response.git
-  revision: 84e23a599f971ed2e263e6245b2076ca776b5a68
+  revision: 2255896972ddc9e1e549333b74e9a5724a7decdf
   specs:
     ruboty-response (1.1.1)
       ruboty
@@ -143,7 +143,7 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-openai_chat (0.1.1)
+    ruboty-openai_chat (0.1.2)
       ruboty
       ruby-openai (~> 2.0)
     ruboty-qiita-github (0.3.0)
