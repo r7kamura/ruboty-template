@@ -173,7 +173,7 @@ GEM
       ruboty (~> 1.0)
     ruboty-scorekeeper (0.0.3)
       ruboty
-    ruboty-slack_rtm (3.2.4)
+    ruboty-slack_rtm (3.2.5)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
