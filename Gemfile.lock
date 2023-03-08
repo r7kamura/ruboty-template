@@ -143,9 +143,9 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-openai_chat (0.1.2)
+    ruboty-openai_chat (0.3.0)
       ruboty
-      ruby-openai (~> 2.0)
+      ruby-openai (~> 3.5)
     ruboty-qiita-github (0.3.0)
       activesupport
       octokit
@@ -182,9 +182,8 @@ GEM
     ruboty-twitter_search (0.1.1)
       ruboty
       twitter
-    ruby-openai (2.2.0)
-      dotenv (>= 2.7.6, < 2.9.0)
-      httparty (>= 0.18.1, < 0.21.0)
+    ruby-openai (3.5.0)
+      httparty (>= 0.18.1)
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
@@ -239,7 +238,7 @@ DEPENDENCIES
   ruboty-echo
   ruboty-irasutoya!
   ruboty-lgtm
-  ruboty-openai_chat (~> 0.1)
+  ruboty-openai_chat (~> 0.3)
   ruboty-qiita-github
   ruboty-qiita_anti_spam
   ruboty-qiita_police
