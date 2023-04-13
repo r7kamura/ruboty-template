@@ -20,7 +20,6 @@ gem "ruboty-qiita_anti_spam"
 gem "ruboty-redis"
 gem "ruboty-scorekeeper"
 gem "ruboty-slack_rtm"
-gem "ruboty-twitter_search"
 gem "ruboty-rating"
 gem "ruboty-response", github: 'increments/ruboty-response'
 gem "ruboty-ruby", ">= 0.0.2"
