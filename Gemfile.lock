@@ -156,9 +156,6 @@ GEM
       google-api-client (~> 0.9.pre1)
       qiita
       ruboty
-    ruboty-qiita_police (0.0.3)
-      qiita
-      ruboty
     ruboty-rating (0.1.1)
       elo_rating (~> 1.0)
     ruboty-redis (0.0.6)
@@ -241,7 +238,6 @@ DEPENDENCIES
   ruboty-openai_chat (~> 0.3)
   ruboty-qiita-github
   ruboty-qiita_anti_spam
-  ruboty-qiita_police
   ruboty-rating
   ruboty-redis
   ruboty-replace
