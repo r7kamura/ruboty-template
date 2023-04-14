@@ -81,10 +81,6 @@ GEM
       activesupport
       octokit
       ruboty
-    ruboty-lgtm (0.0.3)
-      faraday
-      faraday_middleware
-      ruboty
     ruboty-openai_chat (0.3.1)
       ruboty
       ruby-openai (~> 3.5)
@@ -145,7 +141,6 @@ DEPENDENCIES
   ruboty-cron (~> 1.1.0)
   ruboty-echo
   ruboty-irasutoya!
-  ruboty-lgtm
   ruboty-openai_chat (~> 0.3)
   ruboty-qiita-github
   ruboty-rating
