@@ -23,18 +23,11 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    akismet (2.0.0)
-    buftok (0.2.0)
     chrono (0.4.0)
       activesupport
     concurrent-ruby (1.1.10)
-    declarative (0.0.10)
-    declarative-option (0.1.0)
-    domain_name (0.5.20170404)
-      unf (>= 0.0.5, < 1.0.0)
     dotenv (2.8.1)
     elo_rating (1.0.0)
-    equalizer (0.0.11)
     event_emitter (0.2.6)
     eventmachine (1.2.7)
     faraday (0.17.3)
@@ -44,48 +37,15 @@ GEM
     faye-websocket (0.10.9)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
-    google-api-client (0.19.0)
-      addressable (~> 2.5, >= 2.5.1)
-      googleauth (>= 0.5, < 0.7.0)
-      httpclient (>= 2.8.1, < 3.0)
-      mime-types (~> 3.0)
-      representable (~> 3.0)
-      retriable (>= 2.0, < 4.0)
-    googleauth (0.6.2)
-      faraday (~> 0.12)
-      jwt (>= 1.4, < 3.0)
-      logging (~> 2.0)
-      memoist (~> 0.12)
-      multi_json (~> 1.11)
-      os (~> 0.9)
-      signet (~> 0.7)
     holiday_japan (1.4.4)
-    http (3.0.0)
-      addressable (~> 2.3)
-      http-cookie (~> 1.0)
-      http-form_data (>= 2.0.0.pre.pre2, < 3)
-      http_parser.rb (~> 0.6.0)
-    http-cookie (1.0.3)
-      domain_name (~> 0.5)
-    http-form_data (2.0.0)
-    http_parser.rb (0.6.0)
     httparty (0.20.0)
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
-    httpclient (2.8.3)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     increments-schedule (0.18.0)
       holiday_japan (~> 1.1)
-    jwt (2.1.0)
-    little-plugger (1.1.4)
-    logging (2.2.2)
-      little-plugger (~> 1.1)
-      multi_json (~> 1.10)
     mem (0.1.5)
-    memoist (0.16.0)
-    memoizable (0.4.2)
-      thread_safe (~> 0.3, >= 0.3.1)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
@@ -93,31 +53,13 @@ GEM
     multi_json (1.14.1)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
-    naught (1.1.0)
     octokit (4.8.0)
       sawyer (~> 0.8.0, >= 0.5.3)
-    os (0.9.6)
     public_suffix (3.0.1)
-    qiita (1.3.5)
-      activesupport
-      faraday (~> 0.9)
-      faraday_middleware
-      rack
-      rainbow
-      rouge
-      slop (< 4.0.0)
-    rack (2.2.4)
-    rainbow (3.0.0)
     rake (12.3.3)
     redis (4.0.1)
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
-    representable (3.0.4)
-      declarative (< 0.1.0)
-      declarative-option (< 0.2.0)
-      uber (< 0.2.0)
-    retriable (3.1.1)
-    rouge (3.1.0)
     ruboty (1.3.1)
       activesupport
       bundler
@@ -139,25 +81,12 @@ GEM
       activesupport
       octokit
       ruboty
-    ruboty-lgtm (0.0.3)
-      faraday
-      faraday_middleware
-      ruboty
     ruboty-openai_chat (0.3.1)
       ruboty
       ruby-openai (~> 3.5)
     ruboty-qiita-github (0.3.1)
       activesupport
       octokit
-      ruboty
-    ruboty-qiita_anti_spam (0.1.2)
-      activesupport
-      akismet
-      google-api-client (~> 0.9.pre1)
-      qiita
-      ruboty
-    ruboty-qiita_police (0.0.3)
-      qiita
       ruboty
     ruboty-rating (0.1.1)
       elo_rating (~> 1.0)
@@ -179,44 +108,19 @@ GEM
       slack-api (~> 1.6)
       websocket-client-simple (>= 0.5.0)
     ruboty-sushiyuki (0.0.2)
-    ruboty-twitter_search (0.1.1)
-      ruboty
-      twitter
     ruby-openai (3.5.0)
       httparty (>= 0.18.1)
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
-    signet (0.8.1)
-      addressable (~> 2.3)
-      faraday (~> 0.9)
-      jwt (>= 1.5, < 3.0)
-      multi_json (~> 1.10)
-    simple_oauth (0.3.1)
     slack-api (1.6.1)
       faraday (~> 0.11)
       faraday_middleware (~> 0.10.0)
       faye-websocket (~> 0.10.6)
       multi_json (~> 1.0, >= 1.0.3)
     slop (3.6.0)
-    thread_safe (0.3.6)
-    twitter (6.2.0)
-      addressable (~> 2.3)
-      buftok (~> 0.2.0)
-      equalizer (~> 0.0.11)
-      http (~> 3.0)
-      http-form_data (~> 2.0)
-      http_parser.rb (~> 0.6.0)
-      memoizable (~> 0.4.0)
-      multipart-post (~> 2.0)
-      naught (~> 1.0)
-      simple_oauth (~> 0.3.0)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
-    uber (0.1.0)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.4)
     websocket (1.2.9)
     websocket-client-simple (0.6.0)
       event_emitter
@@ -237,11 +141,8 @@ DEPENDENCIES
   ruboty-cron (~> 1.1.0)
   ruboty-echo
   ruboty-irasutoya!
-  ruboty-lgtm
   ruboty-openai_chat (~> 0.3)
   ruboty-qiita-github
-  ruboty-qiita_anti_spam
-  ruboty-qiita_police
   ruboty-rating
   ruboty-redis
   ruboty-replace
@@ -251,7 +152,6 @@ DEPENDENCIES
   ruboty-scorekeeper
   ruboty-slack_rtm
   ruboty-sushiyuki
-  ruboty-twitter_search
 
 RUBY VERSION
    ruby 2.7.6p219
