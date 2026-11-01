@@ -1,1 +1,0 @@
-bot: bundle exec ruboty
