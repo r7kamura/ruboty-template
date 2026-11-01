@@ -1,0 +1,36 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: ruby/setup-ruby@v1.336.0
+        with:
+          bundler-cache: true
+      - name: Boot ruboty with the shell adapter
+        run: printf 'ruboty ping\nexit\n' | timeout 60 bundle exec ruboty | tee output.txt && grep -q pong output.txt
+      - name: Load the production adapter
+        run: RUBOTY_ENV=production bundle exec ruby -e 'require "ruboty"; Bundler.require(:default, :production); abort unless Ruboty::AdapterBuilder.adapter_classes.last == Ruboty::Adapters::SlackEvents'
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - name: Build image
+        run: docker build -t ruboty-template .
+      - name: Boot ruboty in the image with the shell adapter
+        run: printf 'ruboty ping\nexit\n' | timeout 120 docker run --rm -i -e RUBOTY_ENV=development ruboty-template | tee output.txt && grep -q pong output.txt
